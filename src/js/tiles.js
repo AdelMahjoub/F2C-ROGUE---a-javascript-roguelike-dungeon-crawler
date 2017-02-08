@@ -38,6 +38,6 @@ Game.Tiles.prototype.getHeight = function() {
 };
 //
 Game.Tiles.nullTile = new Game.Tiles({});
-Game.Tiles.nullTile._srcWidth = Game.Tiles.nullTile._srcHeight = 0;
+Game.Tiles.nullTile._srcX = Game.Tiles.nullTile._srcY = 128;
 Game.Tiles.floorTile = new Game.Tiles({srcX: 32, srcY: 32, isWalkable: true});
 Game.Tiles.wallTile = new Game.Tiles({srcX: 0, srcY: 32,isWalkable: false});

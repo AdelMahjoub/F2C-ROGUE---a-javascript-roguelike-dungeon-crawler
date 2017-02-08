@@ -14,8 +14,6 @@ Game.Screens.UI = {
         "[H]: Toggle help window. ",
         "---------------------------",
         "-Walk into an item to pick it.",
-        "-You can carry only one equipement",
-        " of each type at a time.",
         "-Walk into an enemy to strike it."
     ],
     //

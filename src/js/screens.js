@@ -11,7 +11,7 @@ Game.Screens.startScreen = {
         //Initialise start screen
         //Initialize game title text
         this._gameTitle = Game.Screens.TextObject.create({
-            text: "F2C ROGUE",
+            text: "JavaScript Roguelike",
             font: "30px Audiowide",
             color: "white",
             textAlign: "center",
